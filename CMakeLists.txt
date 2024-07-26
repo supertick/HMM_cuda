@@ -20,7 +20,7 @@ endif()
 include_directories(
 /usr/local/cuda/include
 /usr/local/cuda/samples/common/inc
-${CMAKE_SOURCE_DIR}/../cuda-samples/Common
+${CMAKE_SOURCE_DIR}/../../github/cuda-samples/Common
 ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
