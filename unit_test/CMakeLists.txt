@@ -40,8 +40,8 @@ set(BUILD_SHARED_LIBS off)
 set(CUDA_VERBOSE_BUILD off)
 set(CUDA_NVCC_FLAGS ${CUDA_NVCC_FLAGS};
 -O2
--gencode arch=compute_30,code=sm_30 
--gencode arch=compute_35,code=sm_35 
+-gencode arch=compute_75,code=sm_75 
+-gencode arch=compute_75,code=sm_75 
 )
 find_cuda_helper_libs(cublas)
 set(CUDA_CUBLAS_LIBRARIES ${CUDA_cublas_LIBRARY})
