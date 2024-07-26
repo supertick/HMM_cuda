@@ -44,3 +44,4 @@ In CMakeLists.txt, use NVCC compiler flags to specify which feature to use.
 * added cublasStatus_t
 * removed cublas.h
 * removed cublasInit()
+* requires https://github.com/NVIDIA/cuda-samples
